@@ -141,6 +141,10 @@ class Defense extends HockeyPlayer{
 		return assists;	
 	}
 	
+	public int getShots(){
+		return shots;	
+	}
+	
 	public int getPoints(){
 		return statsCalc.calcPoints(goals, assists);		
 	}
