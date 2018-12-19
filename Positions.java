@@ -13,6 +13,11 @@ class HockeyPlayer{
 		this.gamesPlayed = gamesPlayed;
 	}
 	
+	//setter
+	public void setGamesPlayed(int gamesPlayed){
+		this.gamesPlayed = gamesPlayed;	
+	}
+	
 	//getters
 	public String getLastName(){
 		return lastName;	
